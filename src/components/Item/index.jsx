@@ -1,14 +1,16 @@
 import "./item.css";
 
+import{ Link } from 'react-router-dom';
+
 import React from "react";
 
 const Item = ({ info }) => {
     return(
-        // eslint-disable-next-line jsx-a11y/anchor-is-valid
-        <a href='' className="film">
+        
+        <Link to={`/detalle/${info.id}`} className="shoe">
         <img src={info.image} alt="" />       
         <p>{info.title}</p>
-     </a>
+     </Link>
     );
 }
 
