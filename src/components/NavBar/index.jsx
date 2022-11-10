@@ -6,12 +6,14 @@ import { NavLink } from "react-router-dom";
 
 export const NavBar = () => {
     return (
-        <div className="container">
+        <div className="container_nav">
             <nav className="nav">
-                <div className="nav_brand">
-                    <NavLink className="nav_link" to= '/'>VZ Store</NavLink>
-                </div>
+               
                 <ul className="nav_list">
+                    <li>
+                    <NavLink className="nav_link" to= '/'>VZ Store</NavLink>
+                    </li>
+
                     <li>
                         <NavLink className="nav_link" to='/categoria/hombres'>Hombres</NavLink>
                     </li>

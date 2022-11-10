@@ -1,7 +1,11 @@
 .counter {
     width: fit-content;
-    background-color: blue;
+    background-color: #352c3f;
     margin: auto;
-    padding: 1rem;
+    padding: 0.5rem;
     text-align: center;
+    color: blanchedalmond;
+    
+    
+    
 }
