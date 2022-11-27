@@ -1,10 +1,12 @@
 import "./item.css";
 
 import{ Link } from 'react-router-dom';
-
 import React from "react";
 
+
+
 const Item = ({ info }) => {
+   
     return(
         <div className="block">
         <Link to={`/detalle/${info.id}`} className="shoe">
