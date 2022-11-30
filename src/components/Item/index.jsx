@@ -12,6 +12,7 @@ const Item = ({ info }) => {
         <Link to={`/detalle/${info.id}`} className="shoe">
         <img src={info.image} alt="" />       
         <p>{info.title}</p>
+        <p>Precio: ${info.price}</p>
      </Link>
      </div>
     );
